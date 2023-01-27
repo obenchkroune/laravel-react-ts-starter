@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "jsx": "preserve",
+        "module": "es2020",
+        "moduleResolution": "node",
+        "baseUrl": "./",
+        "paths": {
+            "@/*": ["resources/ts/*"]
+        },
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "noImplicitAny": false,
+        "skipLibCheck": true,
+        "types": ["vite/client"]
+    },
+    "include": ["resources/ts/**/*"],
+    "exclude": ["node_modules", "public"]
+}
